@@ -1,0 +1,103 @@
+body, h1, p, table {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(255, 255, 255)
+  
+}
+
+body {
+  font-family: monospace;
+  background-color: #000000;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(255, 251, 0);
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+p {
+  color: #fff700;
+  font-family: monospace
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #fff700;
+}
+
+th {
+  background-color: #2e283d;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+button:hover {
+  background-color: #fff700;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff700;
+  font-family: monospace;
+}
+
+input {
+
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 5px solid s#2363ab74;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff700;
+
+}
